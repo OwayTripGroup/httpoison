@@ -43,7 +43,7 @@ defmodule HTTPoison.Mixfile do
 
   defp deps do
     [
-      {:hackney, "~> 1.8"},
+      {:hackney, git: "https://github.com/benoitc/hackney.git", branch: "master"},
       {:mimic, "~> 0.1", only: :test},
       {:exjsx, "~> 3.1", only: :test},
       {:httparrot, "~> 1.2", only: :test},
